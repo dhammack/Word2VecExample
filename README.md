@@ -29,10 +29,15 @@ I think owe doesnt belong in this list!
 
 I think cereal doesnt belong in this list!
 
+->england spain france italy greece germany portugal australia
+
+I think australia doesnt belong in this list!
+
 etc.
 
 The vector representations were learned from 1GB of wikipedia text, which if I remember correctly amounted to about 100-200 million words. If you're looking to download and try it out, the file which holds the vectors is pretty large - about 500M. I chunked it up into smaller files so that GitHub would let me push.
 
+If you decide to try it out, keep in mind that the longer the list, the better it will perform.
 Feel free to check it out, pull, modify, anything. word2vec is really an amazing tool which has the potential to make our NLP systems incredibly more intelligent!
 
 
