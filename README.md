@@ -40,4 +40,4 @@ The vector representations were learned from 1GB of wikipedia text, which if I r
 If you decide to try it out, keep in mind that the longer the list, the better it will perform.
 Feel free to check it out, pull, modify, anything. word2vec is really an amazing tool which has the potential to make our NLP systems incredibly more intelligent!
 
-
+If you want to see some visualizations of the representations, see the /visualizations directory. t-SNE was used to generate the 2D scatterplot.
