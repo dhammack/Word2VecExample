@@ -13,7 +13,8 @@ def load_word2vec(dir):
 		iword2vec = {}
 		#load the word2vec features.
 		with open(os.path.join(dir,path), 'r') as fin:
-			next(fin) #skip information on first line
+			if path == 'vectors0.txt':
+				next(fin) #skip information on first line
 			for line in fin:
 				items = line.replace('\r','').replace('\n','').split(' ')
 				if len(items) < 10: continue
